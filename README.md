@@ -17,5 +17,10 @@ I then melted the data, and observed that a few zip codes didn't have complete d
 
 I then used a seasonal model to plot one zipcode and seperate the factors to confirm that there was a seasonal component, so I was right to use SARIMAX rather than ignoring the seasonal data.
 
+I made a QQ plot to check for normalization.
+
+Then I calculated the RMSE for Redmond. Perhaps not the goal of the project, but it's in the area. Also the ROI for Reno, somehwat disappointing.
+
+Eventually I chose 10 zipcodes based on their 4 year ROI, and checked each of them for RMSE, ultimately picking 5 that happen to be close to Seattle.
 
 ![alt text](https://i.postimg.cc/2ysCnjBy/Bellvue.gif)
